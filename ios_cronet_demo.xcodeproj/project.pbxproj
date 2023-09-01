@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3F048CB62D1C79645F5D92 /* libPods-ios_cronet_demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5E7E6A2AE86FF333FD46FC /* libPods-ios_cronet_demo.a */; };
+		B660D6872AA079C00092CE34 /* Cronet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B660D6862AA079C00092CE34 /* Cronet.framework */; };
+		B660D6892AA07BC20092CE34 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B67C56042AA0775D0074D450 /* libresolv.9.tbd */; };
+		B660D68C2AA07D510092CE34 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67C56022AA076510074D450 /* CoreTelephony.framework */; };
+		B660D68D2AA07D5C0092CE34 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67C55FE2AA0763B0074D450 /* UniformTypeIdentifiers.framework */; };
+		B67C55D72AA06EBC0074D450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C55D62AA06EBC0074D450 /* AppDelegate.m */; };
+		B67C55DA2AA06EBC0074D450 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C55D92AA06EBC0074D450 /* SceneDelegate.m */; };
+		B67C55DD2AA06EBC0074D450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C55DC2AA06EBC0074D450 /* ViewController.m */; };
+		B67C55E02AA06EBC0074D450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67C55DE2AA06EBC0074D450 /* Main.storyboard */; };
+		B67C55E22AA06EBD0074D450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67C55E12AA06EBD0074D450 /* Assets.xcassets */; };
+		B67C55E52AA06EBD0074D450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67C55E32AA06EBD0074D450 /* LaunchScreen.storyboard */; };
+		B67C55E82AA06EBD0074D450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C55E72AA06EBD0074D450 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66AC3D2803C81787DAEE459D /* Pods-ios_cronet_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_cronet_demo.release.xcconfig"; path = "Target Support Files/Pods-ios_cronet_demo/Pods-ios_cronet_demo.release.xcconfig"; sourceTree = "<group>"; };
+		6D5E7E6A2AE86FF333FD46FC /* libPods-ios_cronet_demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_cronet_demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B660D6862AA079C00092CE34 /* Cronet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cronet.framework; sourceTree = "<group>"; };
+		B660D68A2AA07C2F0092CE34 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B67C55D22AA06EBC0074D450 /* ios_cronet_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_cronet_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67C55D52AA06EBC0074D450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B67C55D62AA06EBC0074D450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B67C55D82AA06EBC0074D450 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B67C55D92AA06EBC0074D450 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B67C55DB2AA06EBC0074D450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B67C55DC2AA06EBC0074D450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B67C55DF2AA06EBC0074D450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B67C55E12AA06EBD0074D450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B67C55E42AA06EBD0074D450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B67C55E62AA06EBD0074D450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67C55E72AA06EBD0074D450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B67C55F82AA0760F0074D450 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B67C55F92AA0761B0074D450 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		B67C55FA2AA0762A0074D450 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B67C55FC2AA076330074D450 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B67C55FE2AA0763B0074D450 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		B67C56002AA076490074D450 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B67C56022AA076510074D450 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B67C56042AA0775D0074D450 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		E846C5ED865A1045C8B9B9B8 /* Pods-ios_cronet_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_cronet_demo.debug.xcconfig"; path = "Target Support Files/Pods-ios_cronet_demo/Pods-ios_cronet_demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B67C55CF2AA06EBC0074D450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B660D68C2AA07D510092CE34 /* CoreTelephony.framework in Frameworks */,
+				B660D6892AA07BC20092CE34 /* libresolv.9.tbd in Frameworks */,
+				B660D6872AA079C00092CE34 /* Cronet.framework in Frameworks */,
+				AA3F048CB62D1C79645F5D92 /* libPods-ios_cronet_demo.a in Frameworks */,
+				B660D68D2AA07D5C0092CE34 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F84B6B6684459ECA963D30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B660D68A2AA07C2F0092CE34 /* libz.tbd */,
+				B67C56042AA0775D0074D450 /* libresolv.9.tbd */,
+				B67C56022AA076510074D450 /* CoreTelephony.framework */,
+				B67C56002AA076490074D450 /* Security.framework */,
+				B67C55FE2AA0763B0074D450 /* UniformTypeIdentifiers.framework */,
+				B67C55FC2AA076330074D450 /* SystemConfiguration.framework */,
+				B67C55FA2AA0762A0074D450 /* MobileCoreServices.framework */,
+				B67C55F92AA0761B0074D450 /* libresolv.tbd */,
+				B67C55F82AA0760F0074D450 /* libc++.tbd */,
+				6D5E7E6A2AE86FF333FD46FC /* libPods-ios_cronet_demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D8BCFACE09A15DFFE5CA3EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E846C5ED865A1045C8B9B9B8 /* Pods-ios_cronet_demo.debug.xcconfig */,
+				66AC3D2803C81787DAEE459D /* Pods-ios_cronet_demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B67C55C92AA06EBC0074D450 = {
+			isa = PBXGroup;
+			children = (
+				B67C55D42AA06EBC0074D450 /* ios_cronet_demo */,
+				B67C55D32AA06EBC0074D450 /* Products */,
+				5D8BCFACE09A15DFFE5CA3EE /* Pods */,
+				34F84B6B6684459ECA963D30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B67C55D32AA06EBC0074D450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B67C55D22AA06EBC0074D450 /* ios_cronet_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B67C55D42AA06EBC0074D450 /* ios_cronet_demo */ = {
+			isa = PBXGroup;
+			children = (
+				B67C55D52AA06EBC0074D450 /* AppDelegate.h */,
+				B67C55D62AA06EBC0074D450 /* AppDelegate.m */,
+				B67C55D82AA06EBC0074D450 /* SceneDelegate.h */,
+				B67C55D92AA06EBC0074D450 /* SceneDelegate.m */,
+				B67C55DB2AA06EBC0074D450 /* ViewController.h */,
+				B67C55DC2AA06EBC0074D450 /* ViewController.m */,
+				B67C55DE2AA06EBC0074D450 /* Main.storyboard */,
+				B67C55E12AA06EBD0074D450 /* Assets.xcassets */,
+				B67C55E32AA06EBD0074D450 /* LaunchScreen.storyboard */,
+				B67C55E62AA06EBD0074D450 /* Info.plist */,
+				B67C55E72AA06EBD0074D450 /* main.m */,
+				B67C55EE2AA071A20074D450 /* Frameworks */,
+			);
+			path = ios_cronet_demo;
+			sourceTree = "<group>";
+		};
+		B67C55EE2AA071A20074D450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B660D6862AA079C00092CE34 /* Cronet.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B67C55D12AA06EBC0074D450 /* ios_cronet_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67C55EB2AA06EBD0074D450 /* Build configuration list for PBXNativeTarget "ios_cronet_demo" */;
+			buildPhases = (
+				40CD2556B4EC322C7CA7C552 /* [CP] Check Pods Manifest.lock */,
+				B67C55CE2AA06EBC0074D450 /* Sources */,
+				B67C55CF2AA06EBC0074D450 /* Frameworks */,
+				B67C55D02AA06EBC0074D450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios_cronet_demo;
+			productName = ios_cronet_demo;
+			productReference = B67C55D22AA06EBC0074D450 /* ios_cronet_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B67C55CA2AA06EBC0074D450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B67C55D12AA06EBC0074D450 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B67C55CD2AA06EBC0074D450 /* Build configuration list for PBXProject "ios_cronet_demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B67C55C92AA06EBC0074D450;
+			productRefGroup = B67C55D32AA06EBC0074D450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B67C55D12AA06EBC0074D450 /* ios_cronet_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B67C55D02AA06EBC0074D450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67C55E52AA06EBD0074D450 /* LaunchScreen.storyboard in Resources */,
+				B67C55E22AA06EBD0074D450 /* Assets.xcassets in Resources */,
+				B67C55E02AA06EBC0074D450 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40CD2556B4EC322C7CA7C552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_cronet_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B67C55CE2AA06EBC0074D450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67C55DD2AA06EBC0074D450 /* ViewController.m in Sources */,
+				B67C55D72AA06EBC0074D450 /* AppDelegate.m in Sources */,
+				B67C55E82AA06EBD0074D450 /* main.m in Sources */,
+				B67C55DA2AA06EBC0074D450 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B67C55DE2AA06EBC0074D450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67C55DF2AA06EBC0074D450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B67C55E32AA06EBD0074D450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67C55E42AA06EBD0074D450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B67C55E92AA06EBD0074D450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B67C55EA2AA06EBD0074D450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B67C55EC2AA06EBD0074D450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E846C5ED865A1045C8B9B9B8 /* Pods-ios_cronet_demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = JVTPR5H5XE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios_cronet_demo/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ios_cronet_demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taou.cronet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = MaiMai_main_any;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B67C55ED2AA06EBD0074D450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66AC3D2803C81787DAEE459D /* Pods-ios_cronet_demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = JVTPR5H5XE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios_cronet_demo/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ios_cronet_demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taou.cronet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = MaiMai_main_any;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B67C55CD2AA06EBC0074D450 /* Build configuration list for PBXProject "ios_cronet_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67C55E92AA06EBD0074D450 /* Debug */,
+				B67C55EA2AA06EBD0074D450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67C55EB2AA06EBD0074D450 /* Build configuration list for PBXNativeTarget "ios_cronet_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67C55EC2AA06EBD0074D450 /* Debug */,
+				B67C55ED2AA06EBD0074D450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B67C55CA2AA06EBC0074D450 /* Project object */;
+}
